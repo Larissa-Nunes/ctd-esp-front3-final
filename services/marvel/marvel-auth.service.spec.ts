@@ -13,7 +13,7 @@ describe("MarvelAuthService", () => {
     it("should return a valid query string", async () => {
       const authenticationString = generateAuthenticationString();
       expect(authenticationString).toBe(
-        "ts=1585699200000&apikey=PUBLIC_KEY&hash=ce606fdf2365b1f0a05ea2bdde2ee433"
+        "ts=1585710000000&apikey=81f561bbedd3a976613a08a3741690a1&hash=4812d0efc87c8c9320aa08832459e16b"
       );
     });
   });

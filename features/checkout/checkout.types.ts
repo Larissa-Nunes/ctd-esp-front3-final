@@ -5,7 +5,7 @@ export type CheckoutInput = {
     email: string;
     address: {
       address1: string;
-      address2: string | null;
+      address2?: string | null;
       city: string;
       state: string;
       zipCode: string;
@@ -13,9 +13,9 @@ export type CheckoutInput = {
   };
   card: {
     number: string;
-    cvc: string;
-    expDate: string;
-    nameOnCard: string;
+    comp: string;
+    date: string;
+    namePrinted: string;
   };
   order: {
     name: string;
