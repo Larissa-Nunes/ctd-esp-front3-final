@@ -18,7 +18,7 @@ import Head from "next/head";
 
 export const getStaticPaths = async () => {
     return {
-        paths: [{ params: { id: "1996" } }],
+        paths: [{ params: { id: "82967" } }],
         fallback: true
     };
 }
