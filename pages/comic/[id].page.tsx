@@ -6,7 +6,7 @@ import { Comic } from "shared/types/api"
 
 export const getStaticPaths = async () => {
     return {
-        paths: [{ params: { id: "1996" } }],
+        paths: [{ params: { id: "82967" } }],
         fallback: true
     };
 }
