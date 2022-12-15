@@ -10,7 +10,7 @@ jest.mock(
 jest.mock(
   "dh-marvel/components/layouts/footer/general-footer.component",
   () => () => {
-    return <div>Footer</div>;
+    return <div>Footer</div>; 
   }
 );
 
